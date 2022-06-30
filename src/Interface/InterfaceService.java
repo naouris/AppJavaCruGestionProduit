@@ -13,7 +13,7 @@ import javafx.collections.ObservableList;
  *
  * @author ACER
  */
-public interface InterfaceService <T>{
+public interface InterfaceService <T>{ //todo: the name should be ServiceInterface 
      public void add(T entity);
     public ArrayList<T> getAll();
     public ObservableList<T> getTout();
