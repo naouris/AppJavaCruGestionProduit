@@ -16,7 +16,7 @@ import java.util.logging.Logger;
  * @author ACER
  */
 public class BDConnexion {
-     private String url="jdbc:mysql://localhost:3306/stockage_produit";
+     private String url="jdbc:mysql://localhost:3306/stockage_produit"; //todo: no hardcoded values for the db config, this need to be set via the properties or config via external config or env
     private String login="root";
     private String pwd="";
     private static Connection connection;
