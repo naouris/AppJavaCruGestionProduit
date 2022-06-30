@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  */
 public class BDConnexion {
      private String url="jdbc:mysql://localhost:3306/stockage_produit"; //todo: no hardcoded values for the db config, this need to be set via the properties or config via external config or env
-    private String login="root";
+    private String login="root"; // todo: please use final , because this will never get overwritten at all and stays always the same
     private String pwd="";
     private static Connection connection;
     private static BDConnexion instance;
