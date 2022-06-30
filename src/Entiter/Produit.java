@@ -10,7 +10,7 @@ package Entiter;
  * @author ACER
  */
 public class Produit {
-     private int id;
+     private int id; //todo: please use a code style that arrange correctly your code, having spaces and non aligned code is not a good for checking code
     private String  produit ;
     private String Magazin;
     private int Prix;

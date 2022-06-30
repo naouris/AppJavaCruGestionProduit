@@ -131,7 +131,7 @@ public class ServiceProduit {
     }
     
 
-    public Produit getById(int id) throws SQLException{
+    public Produit getById(int id) throws SQLException{ //todo: please handle the exception. a good idea is to create a general main handler of all the class and use it here
         Produit V = new Produit();
         String req = "SELECT * FROM produit WHERE id="+id;
         Statement stm = cnx.createStatement();
