@@ -18,12 +18,12 @@ import javafx.stage.StageStyle;
  *
  * @author ACER
  */
-public class MainG extends Application {
+public class MainG extends Application { // todo: what does mainG means , it could be a good idea to rename this
 
     @Override
  
   
-       public void start(Stage stage) throws IOException{
+       public void start(Stage stage) throws IOException{ // please handle the exception with logs and good info and print message
     
     Parent root = FXMLLoader.load(getClass().getResource("/Graphique/PageLogin.fxml"));
     
