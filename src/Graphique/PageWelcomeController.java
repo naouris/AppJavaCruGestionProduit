@@ -53,7 +53,7 @@ public class PageWelcomeController implements Initializable {
         
         menu.setOnMouseClicked(event->{
             TranslateTransition slide = new TranslateTransition();
-            slide.setDuration(Duration.seconds(0.4));
+            slide.setDuration(Duration.seconds(0.4)); // todo: please use constant with clear name 0.4 and -176 is not meaningful enough
             slide.setNode(slider);
            
             slide.setToX(0);
