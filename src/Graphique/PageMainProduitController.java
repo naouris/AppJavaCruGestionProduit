@@ -33,7 +33,7 @@ public class PageMainProduitController implements Initializable {
     @FXML
     private TableColumn<Produit, Integer> idcol;
     @FXML
-    private TableColumn<Produit, String> Produitcol;
+    private TableColumn<Produit, String> Produitcol; // todo: i see generally that you use different name convension sometimes uppcase sometimes lower case , please to be consistent pick one convention, PascalCase or camelCase
     @FXML
     private TableColumn<Produit, String> Magazincol;
     @FXML
