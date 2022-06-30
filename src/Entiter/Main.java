@@ -19,3 +19,5 @@ public class Main {
     }
     
 }
+//todo: please get this class outside the main class should be always at the first level of your project structure and it actually doesn't belongs to the 
+// the model or pojo object
